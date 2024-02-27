@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Business.Dtos.Responses
 {
-    public class CreatedBrandPesponse
+    public class GetAllBrandPesponse
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime CreatedDate { get; set; }
 
     }
-    
 }

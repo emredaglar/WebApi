@@ -1,4 +1,6 @@
-﻿using Entities.Concrete;
+﻿using Business.Dtos.Requists;
+using Business.Dtos.Responses;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +13,10 @@ namespace Business.Business
     {
         //void değil brand.Yani bana bir marka ver sana verdiğin markayı döndüreyim
        //response          //request
-        CreatedBrandResponse Add(CreateBrandRequest brand);
-        List<Brand> GetAll();
+                                           //brand ile değişti
+        CreatedBrandPesponse Add(CreateBrandRequest createBrandRequest);
+       //brand ile değişti
+        List<GetAllBrandPesponse> GetAll();
     }
 }
 //response and request

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete
 {
-    internal class BrandDal : IBrandDal
+    public class BrandDal : IBrandDal
     {   //Burda farklı bir veritabanı türü olabilirdi.
         //Bize EFDal kullanıyoruz.İnmemory çalışıyoruz
         List<Brand> _brands;
